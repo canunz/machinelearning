@@ -1,23 +1,28 @@
-📈 Resumen del Análisis
-✔️ Estadísticas Descriptivas
+Resumen del Análisis
+Este proyecto tiene como objetivo analizar la rotación de empleados (Employee Attrition) utilizando un conjunto de datos proporcionado. Se realizaron varias técnicas de análisis exploratorio de datos (EDA) para identificar patrones y factores clave que pueden influir en la decisión de un empleado de dejar la empresa.
 
-Se calcularon la media, mediana, desviación estándar, asimetría y curtosis para variables clave como Age, MonthlyIncome, YearsAtCompany, etc.
+Objetivos del Análisis:
+Identificar las características que más afectan la rotación de empleados.
 
-✔️ Distribución de Datos
+Establecer relaciones entre variables demográficas y laborales con la rotación.
 
-Se generaron histogramas y QQ-plots para evaluar la normalidad de los datos.
+Detectar tendencias y patrones a través de visualizaciones.
 
-Se identificó si las variables presentan asimetría positiva o negativa.
+Metodología:
+Análisis Descriptivo: Se calcularon medidas de tendencia central y dispersión (media, mediana, desviación estándar) para las variables numéricas.
 
-✔️ Análisis de Valores Atípicos (Outliers)
+Visualización de Datos: Se utilizaron histogramas, boxplots y gráficos de barras para examinar la distribución de variables y comparar categorías.
 
-Se aplicó el método del Rango Intercuartílico (IQR) para detectar valores extremos.
+Identificación de Factores Clave: Se exploraron variables como edad, nivel de cargo, satisfacción laboral e ingresos para entender su relación con la rotación.
 
-Se visualizaron los outliers en boxplots.
+Análisis de la Rotación por Cargo: Se observó una mayor rotación en niveles de cargos bajos, con una menor retención en empleados con menos antigüedad.
 
-✔️ Análisis de Variables Categóricas
+Hallazgos Principales:
+Antigüedad y Rotación: Los empleados con menos años en la empresa tienen una mayor probabilidad de dejarla.
 
-Se analizaron frecuencias y distribuciones de variables categóricas.
+Nivel de Cargo: La rotación es más alta en los niveles más bajos de la jerarquía laboral.
 
-Se evaluó la relación entre variables categóricas y Attrition.
+Satisfacción Laboral: Los empleados con una mayor satisfacción tienden a quedarse más tiempo en la empresa.
+
+Ingresos: Se observó que los empleados con menores ingresos tienen una mayor tasa de rotación.
 
